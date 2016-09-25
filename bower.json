@@ -1,0 +1,19 @@
+{
+  "name": "angular-test",
+  "version": "1.0.0",
+  "authors": [
+    "Mohammad Al-Bakri <mohammad.albakri93@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "lib"
+  ],
+  "dependencies": {
+    "angular": "latest",
+    "angular-ui-router": "latest",
+    "angular-animate": "latest",
+    "requirejs": "latest"
+  }
+}

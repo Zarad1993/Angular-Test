@@ -1,0 +1,32 @@
+<div>
+    <p>This page demonstrates <span class="text-danger">First</span> view.</p>    
+    <br>
+</div>
+    <h3>Add product and check it on the second page</h3>
+    Product Name: <input type="add" name="product" ng-model="newProduct">
+    <button class= "btn btn-primary" ng-click="addProduct()">Add</button>
+
+    <h4>Adding inputs</h4>
+     First : <input type="number" name="Sum" ng-model="firstSum" ng-change="update()" ng-value="0">
+     Second : <input type="number" name="Sum" ng-model="secondSum" ng-change="update()" ng-value="0">
+     Third : <input type="number" name="Sum" ng-model="thirdSum" ng-change="update()"
+     ng-value="0">
+     Total : <input name="Sum" ng-model="total" ng-change="newNumber()">
+
+     <h3>3 Inputs with Maximum length 5</h3>
+     <div style="border:2px solid green;border-radius:10px;padding:10px">
+  <form name="form">
+    <div class="form-group">
+      <label for="input1">First Input</label>
+      <input type="text" class="form-control" id="input1" name="input1" tabindex="1" maxlength="5" move-focus placeholder="First">
+    </div>
+    <div class="form-group">
+      <label for="input2">Second Input</label>
+      <input type="text" class="form-control" id="input2" name="input2" tabindex="2" maxlength="5" move-focus placeholder="Second">
+    </div>
+    <div class="form-group">
+      <label for="input3">Third Input</label>
+      <input type="text" class="form-control" id="input3" name="input3" tabindex="3" maxlength="5" move-focus placeholder="Third">
+    </div>
+  </form>
+  </div>
