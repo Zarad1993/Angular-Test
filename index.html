@@ -6,7 +6,7 @@
 
     <!-- CSS (load bootstrap) -->
     <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="app.css">
+    <link rel="stylesheet" type="text/css" href="styles/app.css">
     <style>
         .navbar { border-radius:0; }
     </style>
@@ -14,8 +14,13 @@
     <script src="lib/angular/angular.js"></script>
     <script src="lib/angular-animate/angular-animate.js"></script>
     <script src="lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+
     <!-- <script src="lib/requirejs/require.js" data-main="main.js"></script> -->
+    
     <script type="text/javascript" src="data.js"></script>
+    <script src="controllers/firstController.js"></script>
+    <script src="controllers/secondController.js"></script>
+    <script src="controllers/thirdController.js"></script>
     <script src="app.js"></script>
 </head>
 
@@ -30,6 +35,7 @@
         <li><a ui-sref="home({page:3, ctrl : 'Third'})">Page 3</a></li>
     </ul>
 </nav>
+
 <div class="container">
     <h1 style="text-align:center"><b><i>Welcome To Angular Test</i></b></h1>
     <div class="row">
